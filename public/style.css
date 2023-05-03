@@ -21020,11 +21020,16 @@ readers do not read off random characters that represent icons */
 
 .background-brown {
   background-color: #5B554F;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.background-brown img {
+  width: 250px;
 }
 
 .button-standard {
   font-size: 2rem;
-  color: #0984e3;
+  color: #484848;
 }
 
 .carousel-inner .carousel-item img {
@@ -21032,8 +21037,12 @@ readers do not read off random characters that represent icons */
   object-fit: cover;
 }
 
+@font-face {
+  font-family: Futura;
+  src: url("../asset/fonts/FuturaPtCond/futura-pt-cond-medium.ttf") format("true-type");
+}
 nav {
-  color: #023020;
+  color: #484848;
 }
 nav .rs-div {
   display: flex;
@@ -21048,7 +21057,21 @@ nav .navbar-brand {
 
 h1, .h1 {
   font-size: 5rem;
-  font-style: italic;
+}
+
+h2, .h2 {
+  font-family: Futura;
+  font-size: 40px;
+}
+h2 span, .h2 span {
+  color: #B2C19A;
+}
+
+.lorem {
+  font-family: "MontSerrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

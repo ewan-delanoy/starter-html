@@ -1,4 +1,20 @@
 h1 {
     font-size: 5rem;
-    font-style: italic;
 }
+
+h2 {
+        font-family: Futura;
+        font-size: 40px;
+
+        span {
+            color: $title-color;
+        }
+}
+
+.lorem {
+    font-family : 'MontSerrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
