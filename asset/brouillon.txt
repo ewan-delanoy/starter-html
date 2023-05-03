@@ -1,4 +1,50 @@
 
+<nav class = "navbar navbar-default" role = "navigation" style="background: #85C1E9;">
+         <div class = "navbar-header">
+            <a class = "navbar-brand" href = "#">Search below:</a>
+         </div>
+         <div>
+            <form class = "navbar-form navbar-left" role = "search">
+               <div class = "form-group">
+                  <input type = "text" class = "form-control" placeholder = "Search">
+               </div>
+               <button type = "submit" class = "btn btn-default">Submit Button</button>
+            </form>
+            <button type = "button" class = "btn btn-default navbar-btn">Navbar Button</button>
+         </div>
+      </nav>
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1920px;
+height: 346px;
+left: 0px;
+top: 409px;
+
+background: #5B554F;
+
+
+/* Une entreprise Experte */
+
+position: absolute;
+width: 623px;
+height: 143px;
+left: 300px;
+top: 213px;
+
+font-family: 'Futura PT Cond';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 90px;
+display: flex;
+align-items: center;
+
+color: #484848;
+
+
 
 // Fine ligne entre la nav et "Entreprise experte"
 

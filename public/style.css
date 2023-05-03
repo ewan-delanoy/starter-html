@@ -21018,6 +21018,10 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.background-brown {
+  background-color: #5B554F;
+}
+
 .button-standard {
   font-size: 2rem;
   color: #0984e3;
@@ -21037,6 +21041,9 @@ nav .rs-div {
 nav .rs-div a {
   margin-right: 10px;
   margin-left: 10px;
+}
+nav .navbar-brand {
+  color: blue !important;
 }
 
 h1, .h1 {
