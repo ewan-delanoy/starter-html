@@ -18,3 +18,22 @@ h2 {
     font-size: 18px;
 }
 
+.footer-text {
+    font-family : 'MontSerrat';
+    color: $text-color;
+    a {
+        color:$text-color;
+        text-decoration:none;
+    }
+}
+
+.form-text {
+    font-family : 'MontSerrat';
+    color: $text-color;
+    margin-top:-612px;
+    input {
+        h4 {
+            font-family: Futura;
+        }
+    }
+}

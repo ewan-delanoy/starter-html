@@ -1,3 +1,18 @@
+
+/* Rectangle 24 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 874px;
+height: 796px;
+left: 523px;
+top: 3554px;
+
+background: #FFFFFF;
+border: 2px solid #5B554F;
+
+
 /* Une entreprise Experte */
 
 position: absolute;
@@ -7,8 +22,8 @@ left: 300px;
 top: 213px;
 
 font-family: 'Futura PT Cond';
-font-style: normal;
 font-weight: 400;
+font-style: normal;
 font-size: 70px;
 line-height: 90px;
 display: flex;

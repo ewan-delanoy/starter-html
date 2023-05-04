@@ -21024,12 +21024,64 @@ readers do not read off random characters that represent icons */
   padding-bottom: 50px;
 }
 .background-brown img {
-  width: 250px;
+  position: absolute;
+  left: 67%;
+  top: 21%;
+  width: 600px;
+  height: 500px;
+}
+@media (max-width: 767.98px) {
+  .background-brown img {
+    display: none;
+  }
+}
+
+.second-background-brown {
+  background-color: #5B554F;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.third-background-brown {
+  background-color: #5B554F;
+  border: 5px solid yellow;
 }
 
 .button-standard {
   font-size: 2rem;
   color: #484848;
+}
+
+.cartes .card-custom {
+  height: 100%;
+  width: 100%;
+}
+.cartes .card-custom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cartes .card-custom-text {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F4F4;
+}
+.cartes .card-custom-text p {
+  text-align: center;
+  font-family: "MontSerrat";
+  color: #484848;
+}
+.cartes .card-custom-text .input-group-addon {
+  margin-bottom: 20px;
+}
+.cartes .card-custom-text .two-images {
+  display: flex;
+  gap: 10px;
 }
 
 .carousel-inner .carousel-item img {
@@ -21041,6 +21093,39 @@ readers do not read off random characters that represent icons */
   font-family: Futura;
   src: url("../asset/fonts/FuturaPtCond/futura-pt-cond-medium.ttf") format("true-type");
 }
+.list-in-footer {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.image-in-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.image-in-footer img {
+  width: 150px;
+}
+
+.list-container-in-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icon-footer-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.elevated-margin {
+  margin-top: -160px;
+}
+
 nav {
   color: #484848;
 }
@@ -21072,6 +21157,24 @@ h2 span, .h2 span {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+}
+
+.footer-text {
+  font-family: "MontSerrat";
+  color: #484848;
+}
+.footer-text a {
+  color: #484848;
+  text-decoration: none;
+}
+
+.form-text {
+  font-family: "MontSerrat";
+  color: #484848;
+  margin-top: -612px;
+}
+.form-text input h4, .form-text input .h4 {
+  font-family: Futura;
 }
 
 /*# sourceMappingURL=style.css.map */
