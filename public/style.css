@@ -21046,7 +21046,7 @@ readers do not read off random characters that represent icons */
 
 .third-background-brown {
   background-color: #5B554F;
-  border: 5px solid yellow;
+  color: white;
 }
 
 .button-standard {
@@ -21157,6 +21157,7 @@ h2 span, .h2 span {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  color: white;
 }
 
 .footer-text {
